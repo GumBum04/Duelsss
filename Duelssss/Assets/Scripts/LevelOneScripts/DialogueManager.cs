@@ -43,6 +43,8 @@ public class DialogueManager : MonoBehaviour
     private int index;
     private bool isTyping;
 
+    public AudioSource backgroundMusic;
+
     void Start()
     {
         dimBackground.SetActive(false);
@@ -64,6 +66,9 @@ public class DialogueManager : MonoBehaviour
 
         if (dialogueAudio != null)
             dialogueAudio.Play();
+
+        if (backgroundMusic != null)
+            backgroundMusic.Pause();
 
     }
 
@@ -156,5 +161,10 @@ public class DialogueManager : MonoBehaviour
     
         if (dialogueAudio != null)
             dialogueAudio.Stop();
+
+        if (backgroundMusic != null)
+            backgroundMusic.UnPause();
+
+        SongManager.Instance.StartSong();
     }
 }

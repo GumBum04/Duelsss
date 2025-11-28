@@ -87,7 +87,9 @@ public class SongManager : MonoBehaviour
     }
     public void StartSong()
     {
-        audioSource.Play();
+        if (IsPaused) return; 
+
+            audioSource.Play();
     }
     public static double GetAudioSourceTime()
     {
