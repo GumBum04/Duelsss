@@ -156,10 +156,11 @@ MonoBehaviour:
   - {fileID: 913883898}
   - {fileID: 635738180}
   - {fileID: 1382074425}
+  - {fileID: 1909062678}
   songDelayInSeconds: 0
   marginOfError: 0.2
   inputDelayInMilliseconds: 0
-  fileLocation: dungeontest.mid
+  fileLocation: Duels.mid
   noteTime: 1
   noteSpawnX: 8
   noteTapX: -6.5
@@ -235,7 +236,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -257,7 +258,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.5, y: 0, z: 0}
-  m_LocalScale: {x: 0.1361, y: 5.5, z: 1}
+  m_LocalScale: {x: 0.1, y: 5.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -573,7 +574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bda75d0d1f5adf04babf6c598b43dba4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 3
+  noteRestriction: 2
   input: 119
   notePrefab: {fileID: 3387955453129412711, guid: 47a42cdf3fad2d345a41834477e6a68d, type: 3}
   timeStamps: []
@@ -586,7 +587,7 @@ Transform:
   m_GameObject: {fileID: 635738179}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1002,7 +1003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bda75d0d1f5adf04babf6c598b43dba4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 2
+  noteRestriction: 3
   input: 113
   notePrefab: {fileID: 7712698941260565867, guid: 393d8c71ba545a74a8dfebc6521669bb, type: 3}
   timeStamps: []
@@ -1015,7 +1016,7 @@ Transform:
   m_GameObject: {fileID: 913883897}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1572,7 +1573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bda75d0d1f5adf04babf6c598b43dba4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 4
+  noteRestriction: 1
   input: 101
   notePrefab: {fileID: 3191908758926999791, guid: b7a2bf109664c2b48a6c551073420387, type: 3}
   timeStamps: []
@@ -1585,7 +1586,7 @@ Transform:
   m_GameObject: {fileID: 1382074424}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.5, z: 0}
+  m_LocalPosition: {x: 0, y: -0.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1693,7 +1694,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3f768197c42194348bc26a2fb9177a26, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5ad5d28d0a6c75f40a03a27aecbaaf80, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1886,6 +1887,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1909062677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1909062679}
+  - component: {fileID: 1909062678}
+  m_Layer: 0
+  m_Name: LaneFour
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1909062678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909062677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bda75d0d1f5adf04babf6c598b43dba4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noteRestriction: 0
+  input: 114
+  notePrefab: {fileID: 4880625544674000728, guid: 9f42dec6f37af724fa6562442cf8f34f, type: 3}
+  timeStamps: []
+--- !u!4 &1909062679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909062677}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2064290907
 GameObject:
   m_ObjectHideFlags: 0
@@ -1989,6 +2038,7 @@ SceneRoots:
   - {fileID: 913883899}
   - {fileID: 635738181}
   - {fileID: 1382074426}
+  - {fileID: 1909062679}
   - {fileID: 157763619}
   - {fileID: 862160930}
   - {fileID: 447391694}
