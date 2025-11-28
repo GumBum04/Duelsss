@@ -16,11 +16,15 @@ public class ScoreManager : MonoBehaviour
     }
     public static void Hit()
     {
+        if (SongManager.IsPaused) return; // A Kate edit for fixing dialogue pausing gameplay
+
         comboScore += 1;
         Instance.hitSFX.Play();
     }
     public static void Miss()
     {
+        if (SongManager.IsPaused) return; // A Kate edit for fixing dialogue pausing gameplay
+
         comboScore = 0;
         Instance.missSFX.Play();    
     }

@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public OptionsMenu optionsMenu;
     public void PlayLevelSelect()
     {
         SceneManager.LoadScene("LevelSelect");
@@ -13,12 +12,7 @@ public class MainMenu : MonoBehaviour
 
     public void OpenOptions()
     {
-        Debug.Log("Options Clicked // Options Clicked");
-        optionsMenu.OpenOptions();
-    }
-    public void CloseOptions()
-    {
-        optionsMenu.CloseOptions();
+        SceneManager.LoadScene("Options");
     }
 
     public void PlayLevel1()

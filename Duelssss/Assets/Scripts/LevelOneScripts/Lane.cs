@@ -34,6 +34,8 @@ public class Lane : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (SongManager.IsPaused) return; // A Kate edit for fixing dialogue pausing gameplay 
+
         if (spawnIndex < timeStamps.Count)
         {
             if (SongManager.GetAudioSourceTime() >= timeStamps[spawnIndex] - SongManager.Instance.noteTime)

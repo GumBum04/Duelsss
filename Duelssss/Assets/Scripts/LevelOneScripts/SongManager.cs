@@ -31,6 +31,8 @@ public class SongManager : MonoBehaviour
         }
     }
 
+    public static bool IsPaused = false; // A Kate edit for fixing dialogue pausing gameplay
+
     public static MidiFile midiFile;
     // Start is called before the first frame update
     void Start()
@@ -95,5 +97,17 @@ public class SongManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public static void PauseGame() // A Kate edit for fixing dialogue pausing gameplay
+    {   
+        IsPaused = true;
+        Instance.audioSource.Pause();
+    }
+
+    public static void ResumeGame() // A Kate edit for fixing dialogue pausing gameplay
+    {
+        IsPaused = false;
+        Instance.audioSource.UnPause();
     }
 }

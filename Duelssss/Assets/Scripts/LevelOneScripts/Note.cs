@@ -14,6 +14,8 @@ public class Note : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (SongManager.IsPaused) return; // A Kate edit for fixing dialogue pausing gameplay
+
         double timeSinceInstantiated = SongManager.GetAudioSourceTime() - timeInstantiated;
         float t = (float)(timeSinceInstantiated / (SongManager.Instance.noteTime * 2));
 
