@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 15c61a0935a907241862128492a6b76d
+guid: e1d6045f2eedf4a4db26052f4d092525
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -50,7 +50,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -93,11 +93,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hero_Sprite_Sheet_Idle_0
+      name: Major_SpriteIdle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -111,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1679d4febe9a45242b3e0c5fe3aa8d47
-      internalID: 860655218
+      spriteID: f5bf169934d04ce419820c70e325fe07
+      internalID: -696870413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_Sprite_Sheet_Idle_1
+      name: Major_SpriteIdle_1
       rect:
         serializedVersion: 2
         x: 64
@@ -132,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9bc0459cc3f8f9439ccf2d2f0f2cc74
-      internalID: -689518690
+      spriteID: 284162b31643ed649a20bc523a457e16
+      internalID: -861592515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_Sprite_Sheet_Idle_2
+      name: Major_SpriteIdle_2
       rect:
         serializedVersion: 2
         x: 128
@@ -153,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bbeec2fcb215c84fbf9f03bf8019411
-      internalID: -1467292885
+      spriteID: 95a94c72dcf389144a2e8d2e86a41245
+      internalID: -75471244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_Sprite_Sheet_Idle_3
+      name: Major_SpriteIdle_3
       rect:
         serializedVersion: 2
         x: 192
@@ -174,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74f7f7db3b786054ea78b41a68372bf5
-      internalID: 236984424
+      spriteID: 158a5f7b4520cc943ac5a613e7f597ea
+      internalID: -1518057632
       vertices: []
       indices: 
       edges: []
@@ -191,10 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hero_Sprite_Sheet_Idle_0: 860655218
-      Hero_Sprite_Sheet_Idle_1: -689518690
-      Hero_Sprite_Sheet_Idle_2: -1467292885
-      Hero_Sprite_Sheet_Idle_3: 236984424
+      Major_SpriteIdle_0: -696870413
+      Major_SpriteIdle_1: -861592515
+      Major_SpriteIdle_2: -75471244
+      Major_SpriteIdle_3: -1518057632
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
