@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement; // Kate edit
 
 public class MusicManager : MonoBehaviour
 {
@@ -13,6 +13,8 @@ public class MusicManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
             // keep going between scenes we can add an if statement before this for when we have the main to kill it.
+
+            SceneManager.sceneLoaded += OnSceneLoaded; // Kate edit
         }
         else
         {
@@ -28,3 +30,4 @@ public class MusicManager : MonoBehaviour
         }
     }
 }
+
