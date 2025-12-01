@@ -1004,6 +1004,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2209660775973406941, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
+      propertyPath: m_fontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209660775973406941, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209660775973406941, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2209660775973406941, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2773189303561060060, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
       propertyPath: m_LocalScale.x
       value: 34.59268
@@ -1032,13 +1048,61 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4761146685306238888, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 320
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761146685306238888, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761146685306238888, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4761146685306238888, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -50
+      objectReference: {fileID: 0}
     - target: {fileID: 5819732039035539999, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
       propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6590449008955543301, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
+      propertyPath: m_fontSize
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6590449008955543301, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6590449008955543301, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6590449008955543301, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
+      propertyPath: m_enableAutoSizing
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7494383652199245850, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
       propertyPath: m_Color.a
       value: 0.57254905
+      objectReference: {fileID: 0}
+    - target: {fileID: 8539157491804935505, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 340
+      objectReference: {fileID: 0}
+    - target: {fileID: 8539157491804935505, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8539157491804935505, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8539157491804935505, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -40
       objectReference: {fileID: 0}
     - target: {fileID: 8576099759879954938, guid: 3f4030500b9094910ad69f1fe6d132eb, type: 3}
       propertyPath: m_Color.a
@@ -1184,6 +1248,134 @@ Transform:
   m_Children:
   - {fileID: 1057631314}
   - {fileID: 950990731}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &901021692
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 901021694}
+  - component: {fileID: 901021693}
+  m_Layer: 0
+  m_Name: DialogueAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &901021693
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901021692}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &901021694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901021692}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.089659296, y: -0.47761372, z: 0.029842127}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &913883897
@@ -1593,19 +1785,56 @@ MonoBehaviour:
   rightBox: {fileID: 249604859}
   nameText_Right: {fileID: 2079644110}
   dialogueText_Right: {fileID: 1002035603}
-  dialogueAudio: {fileID: 0}
+  dialogueAudio: {fileID: 901021693}
   advanceSound: {fileID: 1950033409}
   lines:
-  - speaker: 0
-    speakerName: Dude #1
-    text: hi
   - speaker: 1
+    speakerName: Dude #1
+    text: "Knight\u2026 how quaint of you to arrive. You stand within The Pipes of
+      Command, and they do tighten around the uninvited."
+    voiceClip: {fileID: 8300000, guid: b5a1a15b7c08b4d46bd1aae1fb3c9832, type: 3}
+  - speaker: 0
     speakerName: Dude #2
-    text: hello
+    text: "Pipes of\u2026 what? Look, why are you doing this?"
+    voiceClip: {fileID: 8300000, guid: 8aca432545bf3464290bc9a5f1bc31ad, type: 3}
+  - speaker: 1
+    speakerName: Dude #1
+    text: My unending weight on this trodden earth. Your father, and his father before
+      him, I have made the night bleed ichor countless times. A silence even older
+      than your lineage.
+    voiceClip: {fileID: 8300000, guid: 244c35e851eee4164bc7a5ca3d213f63, type: 3}
   - speaker: 0
     speakerName: Dude #1
-    text: wassup
-  typingSpeed: 0.03
+    text: Whatever, point is, your bloodlust for me and my people ends today Maestro.
+    voiceClip: {fileID: 8300000, guid: 11ea2700646c3495ca41e53aec013b0a, type: 3}
+  - speaker: 1
+    speakerName: Dude #1
+    text: Yes! It must end. The cycle binds me as it binds the world. I unmake, I
+      undo, I unravel. Only then may our game be free. Even under coordinates of
+      an unfinished map, this is the only path.
+    voiceClip: {fileID: 8300000, guid: ae8a9874b581f48e2a9927473ce2af92, type: 3}
+  - speaker: 0
+    speakerName: Dude #1
+    text: "Free? What are you talking about? By destroying everything? That doesn\u2019t
+      make it right."
+    voiceClip: {fileID: 8300000, guid: 7919a7ad57b3a49be904ce9a0a4217b0, type: 3}
+  - speaker: 1
+    speakerName: Dude #1
+    text: "Right? No. Only necessary. Each note, each life, bends to a nocturnal
+      industry, Major. I will correct the discord\u2026 to end it."
+    voiceClip: {fileID: 8300000, guid: 6255ae17c81284f90bfbb28bd05047b7, type: 3}
+  - speaker: 0
+    speakerName: Dude #1
+    text: "Whatever you call it, crazy man, I\u2019m not letting you decide who lives
+      or dies."
+    voiceClip: {fileID: 8300000, guid: c053f87ecf3874a08908bdf522d6c22f, type: 3}
+  - speaker: 1
+    speakerName: Dude #1
+    text: Still so stubborn. Lie still after all these years Major. You were never
+      meant to be anything else. Not in excerpts and quotations from the works of
+      later authors, nor anywhere.
+    voiceClip: {fileID: 8300000, guid: c0a25f209fafe4b189244672078ff06d, type: 3}
+  typingSpeed: 0.08
   backgroundMusic: {fileID: 0}
 --- !u!1 &1208711454
 GameObject:
@@ -2978,6 +3207,7 @@ SceneRoots:
   - {fileID: 1267769732}
   - {fileID: 138477548}
   - {fileID: 1547029854}
+  - {fileID: 901021694}
   - {fileID: 913883899}
   - {fileID: 635738181}
   - {fileID: 1382074426}
