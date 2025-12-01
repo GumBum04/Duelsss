@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MusicManager : MonoBehaviour
 {
@@ -16,6 +17,14 @@ public class MusicManager : MonoBehaviour
         else
         {
             Destroy(gameObject); // kill duplicates
+        }
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (scene.name == "Level1")
+        {
+            Destroy(gameObject);
         }
     }
 }

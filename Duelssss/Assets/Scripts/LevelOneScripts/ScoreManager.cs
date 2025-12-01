@@ -8,7 +8,7 @@ public class ScoreManager : MonoBehaviour
     public AudioSource hitSFX;
     public AudioSource missSFX;
     public TMPro.TextMeshPro scoreText;
-    static int comboScore;
+    public static int comboScore;
     void Start()
     {
         Instance = this;
@@ -25,7 +25,6 @@ public class ScoreManager : MonoBehaviour
     {
         if (SongManager.IsPaused) return; // A Kate edit for fixing dialogue pausing gameplay
 
-        comboScore = 0;
         Instance.missSFX.Play();    
     }
     private void Update()
